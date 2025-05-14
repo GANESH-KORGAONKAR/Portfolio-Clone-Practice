@@ -1,0 +1,164 @@
+* {
+    padding: 00;
+    margin: 00;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 40%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    position: fixed;
+    right: 2%;
+    top: 3%;
+}
+
+nav h3,
+nav i {
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+
+nav h3:hover,
+nav i:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+
+header h1 {
+    padding: 40px;
+    font-size: 140px;
+    line-height: 125px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#subsec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 00 50px;
+}
+
+#img1 {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+#about {
+    width: 100%;
+    height: 500px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about h2 {
+    width: 60%;
+    height: 100%;
+    font-size: 85px;
+    padding: 00 30px;
+    line-height: 100px;
+    font-weight: 300;
+}
+
+#aboutPart2 {
+    width: 35%;
+    height: 80%;
+    padding: 00 50px;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#aboutPart2 h3 {
+    font-size: 30px;
+}
+
+#icons i {
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+}
+
+#work {
+    height: 400px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-top: 1px solid black;
+}
+
+#work-part1 {
+    height: 100%;
+    width: 30%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#work-part1 i {
+    font-size: 30px;
+}
+
+#work-part2 {
+    height: 100%;
+    width: 70%;
+    background-color: yellowgreen;
+    display: flex;
+   
+}
+
+#work-part2-1 {
+    padding: 10px;
+    width: 50%;
+}
+#work-part2-1-1 {
+    font-size: 20px;
+    padding: 25px;
+    background-color: blue;
+}
+
+#work-part2-1-2 {
+    font-size: 20px;
+    padding: 25px;
+    background-color: brown;
+}
+
+#work-part2-2 {
+    padding: 10px;
+    width: 50%;
+}
+
+#work-part2-2-1 {
+    font-size: 20px;
+    padding: 25px;
+    background-color: blueviolet;
+}
+
+#work-part2-2-2 {
+    font-size: 20px;
+    padding: 25px;
+    background-color: bisque;
+}
