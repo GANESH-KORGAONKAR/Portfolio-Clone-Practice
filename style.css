@@ -104,7 +104,7 @@ header h1 {
     height: 400px;
     width: 96%;
     margin: 2%;
-    
+
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
@@ -132,7 +132,7 @@ header h1 {
 }
 
 #work-part2-1 {
-    margin:1% 3%;
+    margin: 1% 3%;
     padding: 10px 20px;
     width: 94%;
     border-bottom: 2px solid black;
@@ -144,30 +144,97 @@ header h1 {
     padding: 10px 20px;
     width: 94%;
     display: flex;
-    
+
 }
 
 .work-element {
-    
+
     padding: 25px;
- 
+
     margin: 5px;
     width: 50%;
 }
 
 .work-element h3 {
     font-size: 30px;
+
 }
 
 .work-element p {
-font-size: 20px;
-       color: grey;
+    font-size: 20px;
+    color: grey;
 }
 
-#work-part2-1 .work-element:nth-child(2){
-border-left: 2px solid black;
+#work-part2-1 .work-element:nth-child(2) {
+    border-left: 2px solid black;
 }
 
-#work-part2-2 .work-element:nth-child(2){
-border-left: 2px solid black;
+#work-part2-2 .work-element:nth-child(2) {
+    border-left: 2px solid black;
+}
+
+#work-1 {
+    width: 100%;
+    height: 50%;
+}
+
+#work-1 h2 {
+    font-size: 160px;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 4px black;
+}
+
+.marquee-container {
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
+    }
+
+    .marquee-text {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 20s linear infinite; /* adjust speed here */
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+.sec img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sec-details {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.part1 {
+    width: 50%;
+    height: 100%;
+    padding: 00 100px;
+}
+
+.part2 {
+    width: 50%;
+    height: 100%;
+    padding: 50px 200px;
+}
+
+.part2 p {
+    font-size: 25px;
+    color: grey;
+}
+
+.part2 button{
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-weight: 800;
 }
