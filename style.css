@@ -173,42 +173,56 @@ header h1 {
 }
 
 #work-1 {
+  width: 100%;
+  overflow: hidden;
+}
+
+#work-1 h2 {
+  font-size: 160px;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 4px black;
+  white-space: nowrap;
+  display: inline-block;
+  margin: 0;
+}
+
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-text {
+  display: flex;
+  width: max-content;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+.sec {
     width: 100%;
     height: 100%;
 }
 
-#work-1 h2 {
-    font-size: 160px;
-    font-weight: 900;
-    color: transparent;
-    -webkit-text-stroke: 4px black;
-}
-
-.marquee-container {
-      overflow: hidden;
-      white-space: nowrap;
-      box-sizing: border-box;
-    }
-
-    .marquee-text {
-      display: inline-block;
-      padding-left: 100%;
-      animation: marquee 20s linear infinite; /* adjust speed here */
-    }
-
-    @keyframes marquee {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-100%); }
-    }
-
 .sec img {
+    height: 80%;
     width: 100%;
     object-fit: cover;
 }
 
 .sec-details {
     width: 100%;
-    height: 100%;
+    height: 20%;
     display: flex;
 }
 
@@ -229,7 +243,7 @@ header h1 {
     color: grey;
 }
 
-.part2 button{
+.part2 button {
     padding: 10px 15px;
     margin-top: 20px;
     border-radius: 20px;
@@ -262,7 +276,7 @@ header h1 {
     font-size: 30px;
 }
 
-#clients-sec2{
+#clients-sec2 {
     height: 100%;
     width: 70%;
     border-left: 2px solid black;
@@ -274,11 +288,11 @@ header h1 {
     width: 50%;
 }
 
-.clients-sec-element  h3 {
+.clients-sec-element h3 {
     font-size: 30px;
 }
 
-.clients-sec-element  p {
+.clients-sec-element p {
     font-size: 20px;
     color: grey;
 }
@@ -308,16 +322,17 @@ header h1 {
 }
 
 .client-details {
-    padding-top: 20px ;
+    padding-top: 20px;
     display: flex;
     align-items: center;
 }
 
-.client-details-part1{
+.client-details-part1 {
     width: 15%;
 }
-.client-details-part2{
-   width: 85%;
+
+.client-details-part2 {
+    width: 85%;
     height: 100%;
 }
 
@@ -326,7 +341,8 @@ header h1 {
     width: 90%;
 }
 
-.client-details h3, .client-details p {
+.client-details h3,
+.client-details p {
     font-size: 20px;
 }
 
@@ -355,4 +371,44 @@ header h1 {
     padding: 10px 20px;
     font-size: 20px;
     border-radius: 50px;
+}
+
+#footer {
+    height: 50%;
+    width: 100%;
+    background-color: black
+}
+
+#footer-1 {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+#footer-1 h3 {
+    font-size: 25px;
+    color: grey;
+}
+
+#footer-1 h4 {
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+
+#footer-1 button {
+    font-size: 25px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 35px;
+}
+
+#footer-2 {
+    height: 10%;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
