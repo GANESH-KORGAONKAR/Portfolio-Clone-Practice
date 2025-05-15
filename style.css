@@ -1,6 +1,6 @@
 * {
-    padding: 00;
-    margin: 00;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
 }
@@ -346,7 +346,7 @@ header h1 {
     font-size: 20px;
 }
 
-#contat-us {
+#contact-us {
     height: 100%;
     width: 100%;
     padding: 3%;
@@ -359,15 +359,15 @@ header h1 {
 
 }
 
-#contat-us h4 {
+#contact-us h4 {
     font-size: 30px;
 }
 
-#contat-us h3 {
+#contact-us h3 {
     font-size: 150px;
 }
 
-#contat-us button {
+#contact-us button {
     padding: 10px 20px;
     font-size: 20px;
     border-radius: 50px;
@@ -412,3 +412,5 @@ header h1 {
     color: white;
     text-align: center;
 }
+
+
