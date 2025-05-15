@@ -101,7 +101,7 @@ header h1 {
 }
 
 #work {
-    height: 400px;
+    height: 100%;
     width: 96%;
     margin: 2%;
 
@@ -118,7 +118,6 @@ header h1 {
     padding: 30px;
     display: flex;
     justify-content: space-between;
-    /* background-color: blue; */
 }
 
 #work-part1 i {
@@ -175,7 +174,7 @@ header h1 {
 
 #work-1 {
     width: 100%;
-    height: 50%;
+    height: 100%;
 }
 
 #work-1 h2 {
@@ -237,4 +236,123 @@ header h1 {
     color: white;
     background-color: black;
     font-weight: 800;
+}
+
+#clients-sec {
+    height: 100%;
+    width: 96%;
+    margin: 2%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#clients-sec1 {
+    height: 100%;
+    width: 30%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#clients-sec1 i {
+    font-size: 30px;
+}
+
+#clients-sec2{
+    height: 100%;
+    width: 70%;
+    border-left: 2px solid black;
+}
+
+.clients-sec-element {
+    padding: 35px;
+    margin: 5px;
+    width: 50%;
+}
+
+.clients-sec-element  h3 {
+    font-size: 30px;
+}
+
+.clients-sec-element  p {
+    font-size: 20px;
+    color: grey;
+}
+
+#clients-sec2-1 {
+    margin: 1% 3%;
+    padding: 10px 20px;
+    width: 94%;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+#clients-sec2-2 {
+    margin: 1% 3%;
+    padding: 10px 20px;
+    width: 94%;
+    display: flex;
+
+}
+
+#clients-sec2-1 .clients-sec-element:nth-child(2) {
+    border-left: 2px solid black;
+}
+
+#clients-sec2-2 .clients-sec-element:nth-child(2) {
+    border-left: 2px solid black;
+}
+
+.client-details {
+    padding-top: 20px ;
+    display: flex;
+    align-items: center;
+}
+
+.client-details-part1{
+    width: 15%;
+}
+.client-details-part2{
+   width: 85%;
+    height: 100%;
+}
+
+.client-details img {
+    border-radius: 50%;
+    width: 90%;
+}
+
+.client-details h3, .client-details p {
+    font-size: 20px;
+}
+
+#contat-us {
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#contat-us h4 {
+    font-size: 30px;
+}
+
+#contat-us h3 {
+    font-size: 150px;
+}
+
+#contat-us button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 50px;
 }
